@@ -1,5 +1,7 @@
 # Static website hosting using Amazon S3 + Route 53.
 
+<img width="858" height="387" alt="image" src="https://github.com/user-attachments/assets/fc10b177-205f-4939-8861-2653e748a26d" />
+
 ## Step #1: Set Up Amazon S3 Bucket
 - Go to the AWS Management Console and open the Amazon S3 console.
 - Click "Create bucket" and enter a unique name for your bucket.
@@ -21,5 +23,6 @@
 - If it doesn't work immediately, wait for DNS propagation (~30 mins to a few hours).
 
   🎉 DONE! Your Website Is Live
+
 
 
