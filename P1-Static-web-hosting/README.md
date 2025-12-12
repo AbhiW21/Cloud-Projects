@@ -16,13 +16,14 @@
 - In the "Route 53 hosted zones," create a new record set.
 - Enter your S3 bucket's endpoint as the alias target.
 
-## Step #3: (If needed) You can also setup CloudFront for Content Delivery & for security & performance.
+## Step #3: (If needed) You can also setup CloudFront for Content Delivery, security & performance.
 
 ## Step #4: Verify and Test the Website
 - Open a browser and visit your domain (https://example.com).
 - If it doesn't work immediately, wait for DNS propagation (~30 mins to a few hours).
 
   🎉 DONE! Your Website Is Live
+
 
 
 
