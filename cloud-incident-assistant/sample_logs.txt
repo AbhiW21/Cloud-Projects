@@ -1,0 +1,6 @@
+2024-10-19T10:02:31Z ERROR [ec2-instance i-0abc123def456] StatusCheckFailed: Instance reachability check failed.
+2024-10-19T10:02:45Z ERROR [RDS] arn:aws:rds:us-east-1:123456789012:db:mydb - Connection refused: too many connections (max: 100, current: 100)
+2024-10-19T10:03:01Z WARN  [Lambda] Function "process-orders" - Duration: 29800ms  Billed Duration: 30000ms  Memory Used: 512MB  Memory Size: 512MB
+2024-10-19T10:03:15Z ERROR [Lambda] Function "process-orders" - Task timed out after 30.00 seconds
+2024-10-19T10:03:30Z ERROR [ALB] Target group "web-servers-tg" - UnhealthyHostCount: 3, HealthyHostCount: 0
+2024-10-19T10:04:00Z CRITICAL [CloudWatch Alarm] "HighCPUUtilization" triggered - EC2 instance i-0abc123def456 CPU at 99% for 5 minutes
