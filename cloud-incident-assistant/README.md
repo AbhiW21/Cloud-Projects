@@ -81,6 +81,8 @@ See [`docs/decision-pattern.md`](docs/decision-pattern.md) for implementation de
 ```
 
 5. Open `http://localhost:8501`.
+6. 
+7. Demo: https://drive.google.com/file/d/1mX8bYyRjKH8kafZjm5c7JpvRG3AyPygX/view?usp=drive_link
 
 ## Limitations
 
