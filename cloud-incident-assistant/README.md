@@ -106,29 +106,6 @@ Built for the AWS Builder Center Agent Experience Hackathon using Strands Decide
 
 #strands-decider-2b
 
-## Screenshots
-
-### Strands Agents
-![Strands Agents](screenshots/strands-agents.png)
-
-### Strands Decider
-![Strands Decider](screenshots/strands-decider.png)
-
-### Application Home
-![Application Home](screenshots/app-home.png)
-
-### Incident Analysis
-![Incident Analysis](screenshots/incident-analysis.png)
-
-### Amazon Bedrock Nova Lite Explanation
-![Nova Lite Explanation](screenshots/nova-lite-explanation.png)
-
-### Model Test
-![Model Test](screenshots/Model-test.png)
-
-### Environment Setup
-![Environment Setup](screenshots/Environment.png)
-
 ## Decision Pattern Documentation
 
 See [Decision Pattern](docs/decision-pattern.md) for the reusable Strands Decider pattern used in this project.
