@@ -10,30 +10,6 @@ When a website experiences HTTP 500 errors alongside high CPU utilization, engin
 
 The application accepts incident log text, analyzes potential issues, recommends an investigation path using Strands Decider, and generates a plain-English explanation using Nova Lite.
 
-## Architecture
-
-```text
-Incident Log Text
-       |
-       v
-Streamlit Application
-       |
-       v
-Log Analysis
-       |
-       v
-Strands Decider 2B
-       |
-       v
-Investigation Choice
-       |
-       v
-Amazon Bedrock Nova Lite
-       |
-       v
-Troubleshooting Explanation
-```
-
 ## Technology Stack
 
 - Python and Streamlit
