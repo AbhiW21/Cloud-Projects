@@ -1,0 +1,10 @@
+# Generated health reports
+logs/*.txt
+
+# Temporary files
+*.tmp
+*~
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
