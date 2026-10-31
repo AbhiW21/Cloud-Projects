@@ -13,3 +13,7 @@ variable "subnet_cidr" {
 variable "instance_type" {
   default = "t2.micro"
 }
+variable "ssh_allowed_cidr" {
+  description = "Public IP allowed to access SSH"
+  type        = string
+}

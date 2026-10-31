@@ -50,7 +50,7 @@ resource "aws_security_group" "web_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["106.219.125.155/32"]
+    cidr_blocks = [var.ssh_allowed_cidr]
   }
 
   ingress {
@@ -77,7 +77,7 @@ data "aws_ssm_parameter" "ami" {
 }
 resource "aws_instance" "web" {
   ami                    = data.aws_ssm_parameter.ami.value
-  instance_type          = "var.instance_type"
+  instance_type          = var.instance_type
   subnet_id              = aws_subnet.public.id
   vpc_security_group_ids = [aws_security_group.web_sg.id]
 
