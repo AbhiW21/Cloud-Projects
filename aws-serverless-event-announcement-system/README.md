@@ -7,19 +7,15 @@ The project demonstrates how AWS services can work together to build a simple, e
 
 ## AWS Services Used
 
-| Service            | Purpose                                             |
+ Amazon API Gateway : Receives HTTP POST requests                         
 
-| ------------------ | --------------------------------------------------- |
+ AWS Lambda         : Validates event details and publishes announcements 
 
-| Amazon API Gateway | Receives HTTP POST requests                         |
+ Amazon SNS         : Distributes announcements to email subscribers      
 
-| AWS Lambda         | Validates event details and publishes announcements |
+ AWS IAM            : Controls permissions for Lambda                     
 
-| Amazon SNS         | Distributes announcements to email subscribers      |
-
-| AWS IAM            | Controls permissions for Lambda                     |
-
-| Amazon CloudWatch  | Stores Lambda execution logs                        |
+ Amazon CloudWatch  : Stores Lambda execution logs                        
 
 
 ## Features
